@@ -1,29 +1,25 @@
-# MATLAB_Project
+# MATLAB Project Collection
 
-# Linear Equation Solver with MATLAB
+Welcome to the MATLAB Project Collection hosted by 54J4N! This repository is designed to showcase a variety of MATLAB projects covering different aspects of mathematical modeling, algorithm development, and data visualization.
 
-## Overview
+## Featured Image
+![MATLAB Project](MATLAB.png.webp)
 
-This MATLAB script demonstrates how to solve a system of linear equations using MATLAB. It generates a random coefficient matrix \(A\) and a constant vector \(b\), solves the system \(Ax = b\) for the solution vector \(x\), and saves the solution to a MAT file.
+## Projects Overview
+In this repository, you will find MATLAB scripts and applications that demonstrate the powerful capabilities of MATLAB for solving complex mathematical problems and performing sophisticated data analysis and visualization.
 
-## Usage
+### Current Projects Include:
+- **System Performance Monitoring**: Real-time monitoring of CPU and RAM usage.
+- **Linear Equation Solver**: Solving large systems of linear equations efficiently.
+- More projects will be added periodically.
 
-To use this script:
+## Getting Started
+To get started with these projects, clone the repository to your local machine:
 
-1. Open MATLAB or Octave.
-2. Copy and paste the provided code into a new script file.
-3. Run the script.
-4. The solution vector \(x\) will be displayed in the MATLAB command window.
-5. The solution vector will also be saved to a MAT file named `solution.mat`.
+```bash
+git clone https://github.com/54J4N/MATLAB_Project.git
+Navigate to the project directory:
 
-## Purpose
+cd MATLAB_Project
+Open the project files in MATLAB and run the scripts as described in the individual project folders.
 
-This script is useful for:
-
-- Understanding how to solve systems of linear equations using MATLAB.
-- Testing MATLAB's performance on solving large systems of linear equations.
-- Saving solutions for further analysis or use in other MATLAB projects.
-
-  ## Author
-
--Sajan Ghimire(https://github.com/54J4N)
