@@ -1,10 +1,8 @@
 //This script will handle downloading and preprocessing your dataset. It prepares the features and labels necessary for the machine learning model.
 % data_preprocessing.m
 % Load an example dataset
-url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/kddcup99-mld/kddcup.data_10_percent.gz';
-websave('kddcup_data.gz', url);
-gunzip('kddcup_data.gz');
-data = readtable('kddcup_data', 'ReadVariableNames', false);
+gunzip('kddcup.data_10_percent.gz');  % Decompress the file
+data = readtable('kddcup.data_10_percent', 'ReadVariableNames', false);  % Read the data into MATLAB
 
 % Assuming the last column is the class label and rest are features
 features = data(:,1:end-1);
