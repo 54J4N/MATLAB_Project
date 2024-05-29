@@ -10,7 +10,11 @@ In this repository, you will find MATLAB scripts and applications that demonstra
 
 ### Current Projects Include:
 - **System Performance Monitoring**: Real-time monitoring of CPU and RAM usage.
+  
 - **Linear Equation Solver**: Solving large systems of linear equations efficiently.
+  
+- **Network Intrusion Detection System (NIDS)**: Develops a Network Intrusion Detection System (NIDS) using MATLAB. It utilizes advanced data processing, machine learning algorithms, and                                                  real-time visualization to analyze network traffic data. The goal is to identify suspicious patterns that may indicate cyber attacks and                                                   ensure network security. This system processes large datasets to classify network traffic as normal or potentially harmful, using                                                          MATLAB's robust computational and visualization capabilities.
+  
 - More projects will be added periodically.
 
 ## Getting Started
