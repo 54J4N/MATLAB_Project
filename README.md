@@ -14,6 +14,10 @@ In this repository, you will find MATLAB scripts and applications that demonstra
 - **Linear Equation Solver**: Solving large systems of linear equations efficiently.
   
 - **Network Intrusion Detection System (NIDS)**: Develops a Network Intrusion Detection System (NIDS) using MATLAB. It utilizes advanced data processing, machine learning algorithms, and                                                  real-time visualization to analyze network traffic data. The goal is to identify suspicious patterns that may indicate cyber attacks and                                                   ensure network security. This system processes large datasets to classify network traffic as normal or potentially harmful, using                                                          MATLAB's robust computational and visualization capabilities.
+- **Matrix-Transformation-Logarithm**: This project demonstrates a matrix transformation in MATLAB based on specific conditions. It involves: Computing the natural logarithm of elements                                          in the matrix that are greater than 1. Adding 5 to each element that is less than or equal to 1. Problem: Transform matrix A:               
+                                       A[3,5,−4,−8,−1,33,−17,6,−9]  By appllying:  Natural logarithm to elements>1.  Add 5 to elements ≤ 1
+  ![MATLAB Project](Matrix-Transformation-Logarithm.jpg)
+              
   
 - More projects will be added periodically.
 
