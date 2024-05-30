@@ -1,0 +1,80 @@
+MATLAB script that demonstrates a matrix transformation based on specified conditions. The transformation involves:
+
+Computing the natural logarithm of elements in the matrix that are greater than 1.
+Adding 5 to each element that is less than or equal to 1.
+The repository includes the original problem statement, the MATLAB code used to solve the problem, and a visual representation of the results using a plot.
+
+Problem Statement
+Consider the matrix 
+A=[3,5,−4,−8,−1,33,−17,6,−9]
+
+Using a for loop with conditional statements, write a program that generates matrix 
+𝐵
+B by:
+
+Computing the natural logarithm of the elements of 
+𝐴
+A whose value is greater than 1.
+Adding 5 to each element of 
+𝐴
+A that is equal to or less than 1.
+
+#MatLab Code: <matrixab.m>
+% Define the matrix A
+A = [3 5 -4 -8 -1 33 -17 6 -9];
+
+% Initialize matrix B with the same size as A
+B = zeros(size(A));
+
+% Iterate through each element of A
+for j = 1:length(A)
+    if A(j) > 1
+        B(j) = log(A(j));  % Compute natural logarithm for elements greater than 1
+    else
+        B(j) = A(j) + 5;   % Add 5 for elements less than or equal to 1
+    end
+end
+
+% Display the result
+disp('Matrix B:');
+disp(B);
+
+Generated Matrix 𝐵
+After running the MATLAB code, the generated matrix B is:
+B=[1.0986,1.6094,1,−3,4,3.4965,−12,1.7918,−4]
+
+
+<#myplot.m>: Graph
+% Define the matrix A
+A = [3 5 -4 -8 -1 33 -17 6 -9];
+
+% Initialize matrix B with the same size as A
+B = zeros(size(A));
+
+% Iterate through each element of A
+for j = 1:length(A)
+    if A(j) > 1
+        B(j) = log(A(j));  % Compute natural logarithm for elements greater than 1
+    else
+        B(j) = A(j) + 5;   % Add 5 for elements less than or equal to 1
+    end
+end
+
+% Plot the values of A and B
+figure;
+hold on;
+builtin('plot', A, 'o-', 'LineWidth', 2, 'DisplayName', 'Matrix A');
+builtin('plot', B, 's-', 'LineWidth', 2, 'DisplayName', 'Matrix B');
+hold off;
+
+% Add title and labels
+title('Comparison of Matrices A and B');
+xlabel('Index');
+ylabel('Value');
+legend show;
+grid on;
+
+% Display the result
+disp('Matrix B:');
+disp(B);
+
